@@ -90,7 +90,7 @@ struct HTTPInfo HTTPSClient(const char* website) {
     unsigned char read_buffer[0xFFFF];
     unsigned char client_message[0xFFFF];
 
-    int sockfd, portno = 443;
+    int sockfd, portno = 8080;
     struct sockaddr_in serv_addr;
     struct hostent *server;
     struct HTTPInfo info;
